@@ -44,3 +44,5 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   <input type="submit" name="submit_btn" value="Buy">
   </fieldset>
 </form>
+
+<script src="script.js"></script>
