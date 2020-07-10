@@ -5,18 +5,6 @@ You can use the [editor on GitHub](https://github.com/Ranran15/shops.github.io/e
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### List of Products
-* A
-![Image of A](/images/a.png)
-
-* B
-![Image of B](/images/b.png)
-
-* C
-![Image of C](/images/c.png)
-
-
-
-
 
 <form onsubmit="alertBuy()">
   <fieldset>
