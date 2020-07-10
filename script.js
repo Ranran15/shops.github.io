@@ -12,7 +12,7 @@ function alertBuy() {
   
   var productNum = document.getElementById("numSelect").value;
   
-  fbq('track', 'Purchase', {currency: "USD", value: price, test_event_code: TEST37949});
+  fbq('track', 'Purchase', {currency: "USD", value: price});
   
   alert("You've just bought " + productNum + " " + product + "(s)!");
 }
