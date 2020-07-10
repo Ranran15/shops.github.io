@@ -33,8 +33,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   </fieldset>
 </form>
 
-<script src="script.js"></script>
-
 <!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -52,3 +50,5 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=2077040585661438&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+
+<script src="script.js"></script>
