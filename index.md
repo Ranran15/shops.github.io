@@ -9,9 +9,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <form onsubmit="alertBuy()">
   <fieldset>
     <legend>The Alphabet:</legend>
-  <input id="productInput" type="radio" name="product" value="A" checked> A<br>
-  <input id="productInput" type="radio" name="product" value="B"> B<br>
-  <input id="productInput" type="radio" name="product" value="C"> C<br>
+  <input id="productInput" type="radio" name="product" value="A" checked> A  , price: $10<br>
+  <input id="productInput" type="radio" name="product" value="B"> B   , price $20<br>
+  <input id="productInput" type="radio" name="product" value="C"> C   , price $30<br>
   
   Number of Products: 
   <select id="numSelect" name="num">
