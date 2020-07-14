@@ -14,7 +14,7 @@ function alertBuy() {
   
   var productNum = document.getElementById("numSelect").value;
   
-  fbq('track', 'Purchase', {currency: "USD", value: price, test_event_code: TEST36983, product_id: product_item_id});
+  fbq('track', 'Purchase', {currency: "USD", value: price, test_event_code: TEST36983});
   
   alert("You've just bought " + productNum + " " + product + "(s)!");
 }
