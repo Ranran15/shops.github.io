@@ -4,14 +4,21 @@ You can use the [editor on GitHub](https://github.com/Ranran15/shops.github.io/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### product details:
+[A](https://ranran15.github.io/shops.github.io/images/a.png)
+
+[B](https://ranran15.github.io/shops.github.io/images/b.png)
+
+[C](https://ranran15.github.io/shops.github.io/images/c.png)
+
 ### List of Products
 
 <form onsubmit="alertBuy()">
   <fieldset>
     <legend>The Alphabet:</legend>
-  <input id="productInput" type="radio" name="product" value="A" checked href = "https://ranran15.github.io/shops.github.io/images/a.png"> A  , price: $10<br>
-  <input id="productInput" type="radio" name="product" value="B"  href = "https://ranran15.github.io/shops.github.io/images/b.png"> B  , price $20<br>
-  <input id="productInput" type="radio" name="product" value="C"  href = "https://ranran15.github.io/shops.github.io/images/c.png"> C   , price $30<br>
+  <input id="productInput" type="radio" name="product" value="A" checked > A  , price: $10<br>
+  <input id="productInput" type="radio" name="product" value="B" > B  , price $20<br>
+  <input id="productInput" type="radio" name="product" value="C" > C   , price $30<br>
   
   Number of Products: 
   <select id="numSelect" name="num">
