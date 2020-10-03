@@ -32,6 +32,6 @@ function alertBuy() {
 //         }],
 //       content_type: 'product',
 //     });
-  alert("谢谢大佬“);
+  alert("谢谢大佬");
   //alert("You've just bought " + productNum + " " + product + "(s)!");
 }
