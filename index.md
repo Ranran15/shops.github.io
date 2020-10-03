@@ -37,8 +37,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
   ## Please help us click "Buy"! (don't worry, we don't charge you any $ :-) )
   <br>
   <input type="submit" name="submit_btn" value="Buy">
-  </fieldset>
-</form>
+ <!-- </fieldset>
+</form>-->
 
 <!-- Facebook Pixel Code -->
 <script>
