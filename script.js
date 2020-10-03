@@ -15,8 +15,20 @@ function alertBuy() {
   }
   
   var productNum = document.getElementById("numSelect").value;
-  
-  fbq('track', 'Purchase', {currency: "USD", value: price, content_type:"product", contents:[{id:"DB_1",quantity:"1"},{id:"DB_2",quantity:"2"}]});
+  fbq('track', 'Purchase', {
+      value: 10,
+      currency: 'USD',
+      contents: [
+        {
+          id: 'DB_1',
+          quantity: 1
+        },
+        {
+          id: 'DB_2',
+          quantity: 2
+        }],
+      content_type: 'product',
+    });
   
   alert("You've just bought " + productNum + " " + product + "(s)!");
 }
