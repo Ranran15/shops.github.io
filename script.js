@@ -1,4 +1,6 @@
 function alertBuy() {
+  
+  
   var products = document.getElementsByName("product");
   var product = "A";
   var price = 10;
@@ -14,7 +16,7 @@ function alertBuy() {
   
   var productNum = document.getElementById("numSelect").value;
   
-  fbq('track', 'Purchase', {currency: "USD", value: price, test_event_code: TEST36983});
+  fbq('track', 'Purchase', {currency: "USD", value: price, content_type:"product", contents:[{id:"DB_1",quantity:"1"},{id:"DB_2",quantity:"2"}]});
   
   alert("You've just bought " + productNum + " " + product + "(s)!");
 }
