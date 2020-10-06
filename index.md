@@ -52,5 +52,19 @@ document,"script","https://connect.facebook.net/en_US/fbevents.js");
 fbq('init', '3771134922928632');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '3771134922928632', 'PageView');
-fbq('trackSingle', '3771134922928632', 'PageView');
+//fbq('trackSingle', '3771134922928632', 'PageView');
+ fbq('track', 'Purchase', {
+      value: 10,
+      currency: 'USD',
+      contents: [
+        {
+          id: 'DB_1',
+          quantity: 1
+        },
+        {
+          id: 'DB_2',
+          quantity: 2
+        }],
+      content_type: 'product',
+    });
 </script>
