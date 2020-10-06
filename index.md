@@ -33,7 +33,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
     <option value="9">9</option>
     <option value="10">10</option>
   </select><br><br> -->
-  --->
+  
   ## Please help us click "Buy"! (don't worry, we don't charge you any $ :-) )
   <br>
   <input type="submit" name="submit_btn" value="Buy">
