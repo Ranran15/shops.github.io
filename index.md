@@ -40,23 +40,17 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
  </fieldset>
 </form>
 
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '3771134922928632');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=3771134922928632&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
 
 <script src="script.js"></script>
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,"script","https://connect.facebook.net/en_US/fbevents.js");
+// If you want to add your own JS, add something like
+fbq('init', '3771134922928632');
+// Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
+// if you need to experiment with pixel fires, use fbq('trackSingle', '3771134922928632', 'PageView');
+fbq('trackSingle', '3771134922928632', 'PageView');
+</script>
