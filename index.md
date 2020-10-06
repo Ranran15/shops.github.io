@@ -53,7 +53,7 @@ fbq('init', '3771134922928632');
 // Don't use fbq('track')! You might interfere with other people's pixels as you browse the web. Instead,
 // if you need to experiment with pixel fires, use fbq('trackSingle', '3771134922928632', 'PageView');
 //fbq('trackSingle', '3771134922928632', 'PageView');
- fbq('track', 'Purchase', {
+ fbq('trackSingle', 'Purchase', {
       value: 10,
       currency: 'USD',
       contents: [
