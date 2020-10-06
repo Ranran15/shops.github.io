@@ -11,10 +11,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [C](https://ranran15.github.io/shops.github.io/images/c.png)
 
-### List of Products
+### List of Products --->
 
 <form onsubmit="alertBuy()">
-  <fieldset>
+  <!--<fieldset>
     <legend>The Alphabet:</legend>
   <input id="productInput" type="radio" name="product" value="A" checked > A  , price: $10<br>
   <input id="productInput" type="radio" name="product" value="B" > B  , price $20<br>
@@ -32,13 +32,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
     <option value="8">8</option>
     <option value="9">9</option>
     <option value="10">10</option>
-  </select><br><br>
+  </select><br><br> -->
   --->
   ## Please help us click "Buy"! (don't worry, we don't charge you any $ :-) )
   <br>
   <input type="submit" name="submit_btn" value="Buy">
- <!-- </fieldset>
-</form>-->
+ <!-- </fieldset> -->
+</form>
 
 <!-- Facebook Pixel Code -->
 <script>
